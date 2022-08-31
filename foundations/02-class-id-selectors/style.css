@@ -1,4 +1,20 @@
-.red-pink {
+.red-pink,
+.red-pink-big
+{
     background-color: rgb(245, 18, 188);
     font-family: Verdana,DejaVu Sans, sans-serif;
+}
+#element2 {
+    color: rgb(79, 79, 205);
+    font-size: 36px;
+}
+
+.red-pink-big {
+    font-size: 24px;
+}
+
+#green {
+    background-color: rgb(17, 227, 157);
+    font-size: 24px;
+
 }
