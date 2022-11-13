@@ -9,6 +9,11 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
+  display: grid;
+  grid-template: 1fr 1fr 5fr 1fr / 1fr 3fr ;
+  gap: 15px;
+
 }
 
 .container div {
@@ -21,6 +26,7 @@ html {
 }
 
 .header {
+<<<<<<< HEAD
   background-color: #006157;
 }
 
@@ -30,6 +36,21 @@ html {
 
 .nav {
   background-color: #642cde;
+=======
+  background-color: #FFDE22;
+  grid-area: 1 /1 / 2 / 3;
+}
+
+.sidebar {
+  background-color: #FF7755;
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.nav {
+  background-color: #00DDFF;
+
+  grid-area: 2 / 2 / 3 / 3;
+>>>>>>> 7af378c ( Completed Grid-1)
 }
 
 .article {
@@ -45,4 +66,13 @@ html {
   font-family: sans-serif;
   color: white;
   text-align: left;
+<<<<<<< HEAD
 }
+=======
+}
+
+.footer {
+  background-color: #393f4d;
+  grid-area: 4 / 1 / 5 / 3;
+}
+>>>>>>> 7af378c ( Completed Grid-1)
